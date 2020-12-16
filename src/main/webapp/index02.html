@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>报表</title>
+</head>
+<body>
+部门：
+<select id="depts">
+</select>
+<ul id="empInfo">
+</ul>
+<button id="query">查询员工</button>
+
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function () {
+
+        $("#query").click(function () {
+            $.ajax({
+                url:"http://localhost:8080/empbydept",
+                type:"post",
+                data:{
+                    "deptno":$("#depts").val()
+                },
+                success:function (res) {
+                    console.log(res)
+                }
+            })
+        });
+
+        $.ajax({
+            url:"http://localhost:8080/deptall",
+            type: "get",
+            success:function (res) {
+                var resObj=JSON.parse(res);
+                var depts=resObj.data;
+                for (i in depts){
+                    var dept=depts[i];
+                    $optionNode=$("<option></option>");
+                    $optionNode.text(dept.dname);
+                    $optionNode.val(dept.deptno);
+                    $("#depts").append($optionNode);
+                }
+            }
+        })
+    })
+</script>
+</body>
+</html>
