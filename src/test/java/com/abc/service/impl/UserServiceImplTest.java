@@ -1,28 +1,28 @@
 package com.abc.service.impl;
 
-import com.abc.common.Comm;
-import com.abc.common.Res;
-import com.abc.service.factory.ServiceFactory;
+import com.abc.dao.entity.User;
 import com.abc.service.iservice.IUserService;
-import com.alibaba.fastjson.JSON;
-import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
-import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import static org.junit.Assert.*;
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"classpath:applicationContext.xml"})
 public class UserServiceImplTest {
+   @Autowired
     IUserService userService;
-    private static Logger log = Logger.getLogger(UserServiceImplTest.class);
-    @Before
-    public  void setUp(){
-        userService = (IUserService) ServiceFactory.getInstance(Comm.USER);
-    }
 
     @Test
     public void userExist() {
-        Res res = userService.userExist("root");
-        log.info("************************"+res);
+    }
+
+    @Test
+    public void login() {
+        User user=new User("root","root");
+        System.out.println(userService.login(user));
     }
 }

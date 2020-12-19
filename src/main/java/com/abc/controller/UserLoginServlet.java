@@ -2,8 +2,8 @@ package com.abc.controller;
 
 import com.abc.common.Comm;
 import com.abc.common.Res;
+import com.abc.common.SpringIOC;
 import com.abc.dao.entity.User;
-import com.abc.service.factory.ServiceFactory;
 import com.abc.service.iservice.IUserService;
 import com.alibaba.fastjson.JSON;
 
@@ -24,7 +24,7 @@ public class UserLoginServlet extends HttpServlet {
         String password = request.getParameter("password");
         //2-处理
         User user = new User(username,password);
-        IUserService userService = (IUserService) ServiceFactory.getInstance(Comm.USER);
+        IUserService userService = (IUserService) SpringIOC.getSpringIOC().getBean("userService");
         Res<User> res = userService.login(user);
         HttpSession session = request.getSession();
         session.setAttribute(Comm.CURRENT_USER,res.getData());

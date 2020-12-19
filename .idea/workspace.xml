@@ -15,7 +15,68 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c27e77e2-6839-41e9-8547-49cd9085537b" name="Default Changelist" comment="spring before" />
+    <list default="true" id="c27e77e2-6839-41e9-8547-49cd9085537b" name="Default Changelist" comment="spring before">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/abc/common/SpringIOC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/common/Comm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/common/Comm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/DeptFindAllServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/DeptFindAllServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpDelBatchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpDelBatchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpDeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpDeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByDeptServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByDeptServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByIdServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByIdServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByNameServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByNameServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByPageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpSaveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpSaveServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpUpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpUpdateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/UserExistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/UserExistServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/UserLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/UserLoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/report/ReportDeptEmpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/report/ReportDeptEmpServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/dao/factory/DaoFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/DeptDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/DeptDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/EmpDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/EmpDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/ReportDeptEmpDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/ReportDeptEmpDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/service/factory/ServiceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/DeptEmpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/DeptEmpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/EmpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/emps.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/emps.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/common/Comm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/common/Comm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/DeptFindAllServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/DeptFindAllServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpDelBatchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpDelBatchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpDeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpDeleteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByDeptServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByDeptServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByIdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByIdServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByNameServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByNameServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByPageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpSaveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpSaveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpUpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpUpdateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/UserExistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/UserExistServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/UserLoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/UserLoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/report/ReportDeptEmpServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/report/ReportDeptEmpServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/dao/factory/DaoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/DeptDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/DeptDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/EmpDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/EmpDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/ReportDeptEmpDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/ReportDeptEmpDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/service/factory/ServiceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/service/impl/DeptEmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/service/impl/DeptEmpServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/service/impl/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/service/impl/EmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/service/impl/EmpServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/service/impl/UserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/abc/service/impl/UserServiceImplTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,14 +86,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit4 Test Class" />
         <option value="Jsp File" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,12 +123,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/abc/ssm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,7 +142,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20229885" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -98,11 +161,11 @@
       <recent name="com.abc.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\课程案例\spring\src\main\webapp\js" />
       <recent name="D:\课程案例\spring\src\main\java\com\abc\ssm" />
       <recent name="D:\课程案例\spring\src\main\webapp" />
       <recent name="D:\课程案例\spring\src\main\webapp\WEB-INF" />
       <recent name="D:\课程案例\spring\src\main\webapp\json" />
-      <recent name="D:\idea\spring\src\main\resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.abc.dao.impl" />
@@ -342,7 +405,10 @@
       <workItem from="1607920630457" duration="58000" />
       <workItem from="1607929994491" duration="553000" />
       <workItem from="1608018437407" duration="1348000" />
-      <workItem from="1608093791591" duration="14894000" />
+      <workItem from="1608093791591" duration="15624000" />
+      <workItem from="1608168298277" duration="11079000" />
+      <workItem from="1608212956033" duration="295000" />
+      <workItem from="1608261390038" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="add user-exist">
       <created>1606867380892</created>
@@ -417,10 +483,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="58" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1606973935284" />
-    <state x="55" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607004257805">
+    <state x="55" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608213045043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="55" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607004257805" />
+    <state x="55" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608213045043" />
     <state x="383" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1607406064959">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -437,69 +503,73 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="381" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607930557965" />
-    <state width="693" height="201" key="GridCell.Tab.0.bottom" timestamp="1607413765505">
+    <state width="666" height="131" key="GridCell.Tab.0.bottom" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607413765505" />
-    <state width="693" height="201" key="GridCell.Tab.0.center" timestamp="1607413765505">
+    <state width="666" height="131" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.0.center" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607413765505" />
-    <state width="693" height="201" key="GridCell.Tab.0.left" timestamp="1607413765505">
+    <state width="666" height="131" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.0.left" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607413765505" />
-    <state width="693" height="201" key="GridCell.Tab.0.right" timestamp="1607413765505">
+    <state width="666" height="131" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.0.right" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607413765505" />
-    <state width="693" height="201" key="GridCell.Tab.1.bottom" timestamp="1607413765506">
+    <state width="666" height="131" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.1.bottom" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607413765506" />
-    <state width="693" height="201" key="GridCell.Tab.1.center" timestamp="1607413765506">
+    <state width="666" height="131" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.1.center" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607413765506" />
-    <state width="693" height="201" key="GridCell.Tab.1.left" timestamp="1607413765506">
+    <state width="666" height="131" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.1.left" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607413765506" />
-    <state width="693" height="201" key="GridCell.Tab.1.right" timestamp="1607413765506">
+    <state width="666" height="131" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.1.right" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607413765506" />
-    <state width="693" height="201" key="GridCell.Tab.2.bottom" timestamp="1607413765507">
+    <state width="666" height="131" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.2.bottom" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607413765507" />
-    <state width="693" height="201" key="GridCell.Tab.2.center" timestamp="1607413765506">
+    <state width="666" height="131" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.2.center" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1607413765506" />
-    <state width="693" height="201" key="GridCell.Tab.2.left" timestamp="1607413765506">
+    <state width="666" height="131" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.2.left" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1607413765506" />
-    <state width="693" height="201" key="GridCell.Tab.2.right" timestamp="1607413765506">
+    <state width="666" height="131" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state width="666" height="131" key="GridCell.Tab.2.right" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="693" height="201" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1607413765506" />
-    <state x="170" y="0" key="SettingsEditor" timestamp="1608104871640">
+    <state width="666" height="131" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
+    <state x="170" y="0" key="SettingsEditor" timestamp="1608261449516">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="170" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608104871640" />
+    <state x="170" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608261449516" />
     <state x="53" y="48" key="Vcs.Push.Dialog.v2" timestamp="1608125495949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="53" y="48" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608125495949" />
+    <state x="357" y="276" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608171092464">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="357" y="276" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1608171092464" />
     <state x="460" y="150" key="git4idea.merge.GitPullDialog" timestamp="1608125486046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="150" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1608125486046" />
-    <state x="0" y="48" key="new project wizard" timestamp="1607930542409">
+    <state x="0" y="48" key="new project wizard" timestamp="1608184474676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="48" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1607930542409" />
+    <state x="0" y="48" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1608184474676" />
   </component>
 </project>
