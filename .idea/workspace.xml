@@ -15,67 +15,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c27e77e2-6839-41e9-8547-49cd9085537b" name="Default Changelist" comment="spring before">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/abc/common/SpringIOC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index04.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="c27e77e2-6839-41e9-8547-49cd9085537b" name="Default Changelist" comment="mybatis before">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/abc/ssm/mybatis/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/abc/ssm/mybatis/dao/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/props/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/common/Comm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/common/Comm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/DeptFindAllServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/DeptFindAllServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpDelBatchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpDelBatchServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpDeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpDeleteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByDeptServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByDeptServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByIdServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByIdServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByNameServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByNameServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpFindByPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpSaveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpSaveServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpUpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/EmpUpdateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/UserExistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/UserExistServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/UserLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/UserLoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/controller/report/ReportDeptEmpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/controller/report/ReportDeptEmpServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/dao/factory/DaoFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/DeptDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/DeptDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/EmpDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/EmpDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/ReportDeptEmpDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/ReportDeptEmpDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/service/factory/ServiceFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/DeptEmpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/DeptEmpServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/EmpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/EmpServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/abc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/emps.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/emps.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/abc/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/abc/service/impl/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/common/Comm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/common/Comm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/DeptFindAllServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/DeptFindAllServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpDelBatchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpDelBatchServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpDeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpDeleteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByDeptServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByDeptServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByIdServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByIdServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByNameServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByNameServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpFindByPageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpSaveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpSaveServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpUpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/EmpUpdateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/UserExistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/UserExistServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/UserLoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/UserLoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/controller/report/ReportDeptEmpServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/controller/report/ReportDeptEmpServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/dao/factory/DaoFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/DeptDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/DeptDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/EmpDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/EmpDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/ReportDeptEmpDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/ReportDeptEmpDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/service/factory/ServiceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/service/impl/DeptEmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/service/impl/DeptEmpServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/service/impl/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/service/impl/DeptServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/service/impl/EmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/service/impl/EmpServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/abc/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/abc/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/abc/service/impl/UserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/abc/service/impl/UserServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c3p0-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,13 +42,13 @@
       <list>
         <option value="Enum" />
         <option value="Jsp File" />
-        <option value="Interface" />
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -122,6 +77,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -141,8 +97,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.20229885" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.35172415" />
+    <property name="settings.editor.selected.configurable" value="SQL Resolution Scopes" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -409,6 +365,11 @@
       <workItem from="1608168298277" duration="11079000" />
       <workItem from="1608212956033" duration="295000" />
       <workItem from="1608261390038" duration="61000" />
+      <workItem from="1608353316399" duration="1105000" />
+      <workItem from="1608354678298" duration="189000" />
+      <workItem from="1608354921711" duration="4327000" />
+      <workItem from="1608359526102" duration="6038000" />
+      <workItem from="1608365756917" duration="3895000" />
     </task>
     <task id="LOCAL-00001" summary="add user-exist">
       <created>1606867380892</created>
@@ -452,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608125050596</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="spring before">
+      <created>1608353508803</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608353508803</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,21 +444,34 @@
     </ignored-roots>
     <MESSAGE value="add user-exist" />
     <MESSAGE value="spring before" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring before" />
+    <MESSAGE value="mybatis before" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis before" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="209" y="254" width="498" height="222" key="#Assign_Data_Sources" timestamp="1608365475144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="209" y="254" width="498" height="222" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1608365475144" />
     <state x="58" y="0" key="#Project_Structure" timestamp="1606973935284">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="58" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1606973935284" />
-    <state x="55" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608213045043">
+    <state x="39" y="306" key="#SQL_Resolution_Scopes" timestamp="1608364725848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="55" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608213045043" />
+    <state x="39" y="306" key="#SQL_Resolution_Scopes/0.0.1366.728@0.0.1366.728" timestamp="1608364725848" />
+    <state x="82" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608382385408">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="82" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608382385408" />
     <state x="383" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1607406064959">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="383" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607406064959" />
+    <state x="540" y="264" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608357906085">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="540" y="264" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1608357906085" />
     <state x="293" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608095970853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -499,10 +480,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="467" y="233" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1606980958199" />
-    <state x="381" y="104" key="FileChooserDialogImpl" timestamp="1607930557965">
+    <state x="465" y="151" key="FileChooserDialogImpl" timestamp="1608365115334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="381" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607930557965" />
+    <state x="465" y="151" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608365115334" />
     <state width="666" height="131" key="GridCell.Tab.0.bottom" timestamp="1608184497127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -551,14 +532,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="666" height="131" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1608184497127" />
-    <state x="170" y="0" key="SettingsEditor" timestamp="1608261449516">
+    <state x="61" y="0" key="SettingsEditor" timestamp="1608382271917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="170" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608261449516" />
-    <state x="53" y="48" key="Vcs.Push.Dialog.v2" timestamp="1608125495949">
+    <state x="61" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608382271917" />
+    <state width="200" height="461" key="SqlResolveConfigurable" timestamp="1608382268939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="53" y="48" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608125495949" />
+    <state width="200" height="461" key="SqlResolveConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1608382268939" />
+    <state x="53" y="48" key="Vcs.Push.Dialog.v2" timestamp="1608353525592">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="53" y="48" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608353525592" />
+    <state x="445" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1608363216934">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="445" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1608363216934" />
     <state x="357" y="276" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608171092464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -571,5 +560,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="48" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1608184474676" />
+    <state x="592" y="66" width="672" height="678" key="search.everywhere.popup" timestamp="1608361656354">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="592" y="66" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608361656354" />
   </component>
 </project>

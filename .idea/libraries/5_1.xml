@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="5.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../develop/apache-maven-3.5.4/repository/mysql/mysql-connector-java/5.1.29" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../develop/apache-maven-3.5.4/repository/mysql/mysql-connector-java/5.1.29" recursive="false" />
+  </library>
+</component>
